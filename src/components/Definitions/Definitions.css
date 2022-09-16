@@ -1,0 +1,36 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+  border-style: inset;
+  border-color: black;
+  border-width: 20px;
+  background-color: rgb(136, 135, 133);
+}
+
+.subTitle {
+  font-size: 30px;
+  font-family: serif;
+ color: rgb(255, 255, 255);
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 20px;
+  }
+}
+.singleMean {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+  
